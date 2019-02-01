@@ -1,0 +1,3 @@
+Struct:
+Data Structure. Collection of properties that
+are related together
