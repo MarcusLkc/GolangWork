@@ -1,0 +1,28 @@
+
+Key and values in golang are all statistically typed
+
+maps vs structs
+
+maps:
+all keys must be the same type
+use to represent a collection of related properties
+All values must be the same type
+Don't need to know all the keys at compile time
+keys are indexed - we can iterate over them
+reference type!
+
+Struct:
+Values can be of different type
+you need to know all the different fields at compile time
+keys don't support indexing
+use to represent a "thing" with a lot of different properties
+Value type!
+
+
+Use a map when representing very closely related properties
+
+Maps can add properties which can not be done in structs
+when you don't know keys at compile time use map
+
+If you got a closed set of keys you can use structs
+
