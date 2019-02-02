@@ -1,0 +1,44 @@
+Turn addrss into value with *address
+Turn value into address with &value
+
+
+In go if our receivers have a pointer inside of it go will automatically turn variable into 
+a pointer for you
+
+example:
+jim is passed by reference
+func (pointerToPerson *person) updateName(newFirstName string) {
+	(*pointerToPerson).firstName = newFirstName
+}
+
+func main() {
+	jim := person{
+		firstName: "Jim",
+		lastName:  "billy",
+		contact: contactInfo{
+			email:   "Marcus@gmail.com",
+			zipCode: 13377,
+		},
+	}
+	jim.updateName("jimmy")
+	jim.print()
+
+}
+
+
+
+Golang types
+
+Values Types
+int
+float
+stringbool
+sructs
+
+
+Reference types
+slices
+maps
+channels
+pointers 
+functions
