@@ -1,0 +1,12 @@
+We know that...
+Every value has a type
+Every function has to specify the type of its arguments
+
+so does that mean...
+Every function we ever write has to be rewritten to accomodate different
+types even if the logic in it is the same?
+
+Interfaces make it easier to reuse code..
+
+can not create a direct value from struct interface type
+Interfaces are implicit
