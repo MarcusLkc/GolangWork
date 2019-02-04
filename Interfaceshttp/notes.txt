@@ -1,0 +1,6 @@
+Interface inside of a struct
+
+in go we can take multiple interfaces to form another interface
+
+Reader interface is an adapter to take radically different source of input to a common
+medium
