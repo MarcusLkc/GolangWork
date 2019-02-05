@@ -1,0 +1,7 @@
+concurrency is not parrallelism
+
+channels are used to communicate between each goroutine
+Channels are the only way to communicate between goroutines
+
+
+never reference same variable in same routine
